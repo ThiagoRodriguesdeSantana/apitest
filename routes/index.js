@@ -43,17 +43,7 @@ router.post('/customers/', function (req, res, next) {
     });
 });
 
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
+
 /* PUT ONE customer. */
 router.put('/customers/:id', function (req, res, next) {
     var db = require('../db');
